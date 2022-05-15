@@ -1,3 +1,4 @@
+@import url(http://www.cssfontstack.com/);
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ div {
     text-align: center;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1{
     text-align: center;
@@ -25,6 +27,10 @@ main section{
 }
 body {
     background-color: #fcfbfb; 
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -37,11 +43,18 @@ nav a:hover {
     background-color: #fcfbfb; 
     color: #000000;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #fcfbfb; 
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #060505; 
@@ -53,21 +66,31 @@ nav a:hover {
 }
 .msg{
     background-color: #efc259; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #e12b2b; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #000000;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #000000;
 }
 .msg h2{
     color: #000000;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .msg p{
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: #000000;
@@ -79,9 +102,31 @@ footer a{
 footer a:hover{
     color: #000000;
 }
-.icon, .logo{
+.icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer h3 a:hover{
     text-decoration: underline;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.logo{
+    width: 80px; 
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
