@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -22,8 +22,8 @@ Fonts are separated by a | */
   --paragraph-background-color: #60495a  ;
   --nav-link-color: #a9aca9;
   --nav-background-color: #2f2235;
-  --nav-hover-link-color: #3f3244;
-  --nav-hover-background-color: #a9aca9;
+  --nav-hover-link-color: #a9aca9;
+  --nav-hover-background-color: #60495a;
 }
 
 
